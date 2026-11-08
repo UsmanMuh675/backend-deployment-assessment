@@ -1,0 +1,12 @@
+# Sensitive files
+.env
+*.pem
+terraform/ec2-user@*
+terraform/terraform.tfvars
+terraform/tfplan
+
+# Terraform generated files
+terraform/.terraform/
+terraform/*.tfstate
+terraform/*.tfstate.*
+terraform/crash.log
